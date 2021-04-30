@@ -68,6 +68,7 @@ function Register(props) {
               ...data,
               isSubmitting: false,
             });
+            registerdUsers.push(registerdata);
             localStorage.setItem(
               "registerdUsers",
               JSON.stringify(registerdUsers)
@@ -81,6 +82,7 @@ function Register(props) {
           ...data,
           isSubmitting: false,
         });
+        registerdUsers.push(registerdata);
         localStorage.setItem("registerdUsers", JSON.stringify(registerdUsers));
         toast.success("Register successfully");
         window.location.href = "/signin";
