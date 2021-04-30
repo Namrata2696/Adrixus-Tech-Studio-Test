@@ -1,0 +1,45 @@
+
+
+.login .card-body {
+    align-items: center;
+    height: 100vh;
+    align-content: center;
+    display: flex;
+}
+.login .card-body form {
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+}
+.login .card-body form h1{
+    margin-bottom: 2em;
+}
+.login .card-body form a{
+    padding-left: 10px;
+}
+.required_message {
+    color: red;
+    font-size: 13px;
+}
+.row{
+    width: 100%;
+}
+.header_cls {
+    text-align: right;
+    margin-top: 15px;
+}
+.header_cls p{
+    position: relative;
+    top: 5px;
+}
+.user_list {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+.user_list .table_sec   {
+    margin-top: 3em ;
+}
+.login h1{
+    text-align: center;
+}
